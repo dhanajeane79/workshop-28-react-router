@@ -2,6 +2,7 @@ body,
 body>div {
   height: 100vh;
   width: 100vw;
+  font-family: 'Dekko'
 }
 
 #container {
@@ -26,10 +27,11 @@ body>div {
 }
 
 #navbar a {
-  font-size: 40px; /* Change the font size to your desired value */
+  font-size: 40px; 
+  font-weight: bold;
   text-decoration: none;
-  color: #333; /* Set the color of the link text */
-  padding: 5px
+  color: #333;
+  padding: 5px 
 }
 
 #navbar a:hover {
@@ -37,7 +39,7 @@ body>div {
 } 
 
 #main-section {
-  flex-grow: 1;
+  flex-grow: 1; 
 }
 
 #main-section>div {
