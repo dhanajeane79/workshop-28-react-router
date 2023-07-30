@@ -1,7 +1,9 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
+import Blue from "./Blue";
 import "./App.css";
+import Red from "./Red";
 
 function App() {
   return (
