@@ -1,49 +1,95 @@
+body,
+body>div {
+  height: 100vh;
+  width: 100vw;
+}
 
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container>div {
+  display: flex;
+}
+
+#navbar {
+  padding: 2em;
+  justify-content: space-evenly;
   
-  body,
-  body > div {
-    height: 100vh;
-    width: 100vw;
-  }
-  
-  #container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #container > div {
-    display: flex;
-  }
-  
-  #navbar {
-    padding: 2em;
-    justify-content: space-evenly;
-  }
-  
-  #main-section {
-    flex-grow: 1;
-  }
-  
-  #main-section > div {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .red {
-    background-color: #b05f6d;
-    color: white;
-  }
-  
-  .blue {
-    background-color: #275db3;
-    color: white;
+}
+
+#navbar {
+  display: flex;
+  gap: 20px;
+}
+
+#navbar a {
+  font-size: 40px; /* Change the font size to your desired value */
+  text-decoration: none;
+  color: #333; /* Set the color of the link text */
+  padding: 5px
+}
+
+#navbar a:hover {
+  color: #f47fdc; /* Set the color of the link text on hover */
+} 
+
+#main-section {
+  flex-grow: 1;
+}
+
+#main-section>div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background: linear-gradient(45deg, #ff0000, #720d43, #f40404);
+  /* Gradient colors */
+  background-size: 600% 600%;
+  /* Size of the gradient to enable movement */
+  animation: gradientAnimation 10s ease infinite;
+  /* Animation properties */
+  color: antiquewhite;
+}
+
+
+.blue {
+  background: linear-gradient(45deg, #00aaff, #1e0c41, #81c9ed);
+  /* Gradient colors */
+  background-size: 600% 600%;
+  /* Size of the gradient to enable movement */
+  animation: gradientAnimation 10s ease infinite;
+  /* Animation properties */
+  color: antiquewhite;
+
+}
+
+.home {
+  background: linear-gradient(45deg, #00aaff, #ff00aa, #00aaff);
+  /* Gradient colors */
+  background-size: 600% 600%;
+  /* Size of the gradient to enable movement */
+  animation: gradientAnimation 10s ease infinite;
+  /* Animation properties */
+  color: antiquewhite;
+}
+
+/* Keyframes for the gradient animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
   }
 
-  .home {
-    background-color: #16022d; 
-    color: white; 
-  } 
+  50% {
+    background-position: 100% 50%;
+  }
 
+  100% {
+    background-position: 0% 50%;
+  }
+}
