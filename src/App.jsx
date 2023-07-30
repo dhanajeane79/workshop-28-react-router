@@ -5,6 +5,7 @@ import Blue from "./Components/Blue";
 import Red from "./Components/Red";
 import Home from "./Components/Home";
 import "./App.css";
+import "./index.css";
 
 
 function App() {
