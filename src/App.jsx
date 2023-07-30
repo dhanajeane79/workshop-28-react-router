@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import Blue from "./Blue";
+import Blue from "./Components/Blue";
+import Red from "./Components/Red";
 import "./App.css";
-import Red from "./Red";
+
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
         </div>
         <div id="main-section">
           <Routes>
-            <Route path="/blue" element={<h1>Blue</h1>} />
-            <Route path="/red" element={<h1>Red</h1>} />
+            <Route path="/blue" element={<Blue />} />
+            <Route path="/red" element={<Red />} />
           </Routes>
         </div>
       </div>
