@@ -51,37 +51,48 @@ body>div {
 
 .red {
   background: linear-gradient(45deg, #ff0000, #720d43, #f40404);
-  /* Gradient colors */
   background-size: 600% 600%;
-  /* Size of the gradient to enable movement */
   animation: gradientAnimation 10s ease infinite;
-  /* Animation properties */
   color: antiquewhite;
 }
 
 
 .blue {
   background: linear-gradient(45deg, #00aaff, #1e0c41, #81c9ed);
-  /* Gradient colors */
   background-size: 600% 600%;
-  /* Size of the gradient to enable movement */
   animation: gradientAnimation 10s ease infinite;
-  /* Animation properties */
   color: antiquewhite;
 
+}
+
+.orange {
+  background: linear-gradient(45deg, #e1891d, #dea98b, #e9ac12);
+  background-size: 600% 600%; 
+  animation: gradientAnimation 10s ease infinite;
+  color: antiquewhite; 
+}
+
+.yellow {
+  background: linear-gradient(45deg, #ddf868, #dcbb95, #e9fd11);
+  background-size: 600% 600%; 
+  animation: gradientAnimation 10s ease infinite;
+  color: antiquewhite; 
+}
+
+.green {
+  background: linear-gradient(45deg, #129e20, #b9cd6f, #0ebc45); 
+  background-size: 600% 600%;  
+  animation: gradientAnimation 10s ease infinite;
+  color: antiquewhite;
 }
 
 .home {
   background: linear-gradient(45deg, #00aaff, #ff00aa, #00aaff);
-  /* Gradient colors */
   background-size: 600% 600%;
-  /* Size of the gradient to enable movement */
   animation: gradientAnimation 10s ease infinite;
-  /* Animation properties */
   color: antiquewhite;
 }
 
-/* Keyframes for the gradient animation */
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 50%;
@@ -94,4 +105,4 @@ body>div {
   100% {
     background-position: 0% 50%;
   }
-}
+} 
