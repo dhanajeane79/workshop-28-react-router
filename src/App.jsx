@@ -6,7 +6,7 @@ import NaviBar from "./Components/NaviBar";
 import MainContainer from "./Components/MainContainer";
 import "./App.css";
 import "./index.css";
-
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <NaviBar /> 
         <MainContainer /> 
       </div>
+      <Footer />
     </>
   );
 }

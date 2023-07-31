@@ -4,3 +4,22 @@
   padding: 2rem;
   text-align: center;
 }
+
+.footer {
+  background-color: #bcd6e2; 
+  padding: 10px;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
